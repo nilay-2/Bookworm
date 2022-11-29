@@ -29,8 +29,8 @@ export default function Thankyou() {
           <div class="d-flex align-items-center justify-content-between">
             <div class="logo">
               <div class="site-logo">
-                <a href="index.html" class="js-logo-clone">
-                  Pharma
+                <a href="/Home" class="js-logo-clone">
+                  BookWorm
                 </a>
               </div>
             </div>
@@ -41,10 +41,10 @@ export default function Thankyou() {
               >
                 <ul class="site-menu js-clone-nav d-none d-lg-block">
                   <li>
-                    <a href="index.html">Home</a>
+                    <a href="/Home">Home</a>
                   </li>
                   <li>
-                    <a href="shop.html">Store</a>
+                    <a href="/Shop">Store</a>
                   </li>
                   <li>
                     <a href="/About">About</a>
