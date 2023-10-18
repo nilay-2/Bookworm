@@ -396,6 +396,6 @@ app.get("/token/delete/:token", async (req, res) => {
   });
 });
 
-module.exports = app.listen(5000, () => {
+module.exports = app.listen(process.env.PORT, "0.0.0.0", () => {
   console.log("server started");
 });
