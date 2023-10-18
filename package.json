@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node start",
-    "dev": "nodemon start",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "mocha"
   },
   "author": "",
@@ -23,8 +23,10 @@
     "mocha": "^10.1.0",
     "mongoose": "^6.6.1",
     "nodemailer": "^6.8.0",
-    "nodemon": "^2.0.20",
     "uuid": "^9.0.0",
     "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
