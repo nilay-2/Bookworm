@@ -24,8 +24,9 @@ const Token = require("./models/tokenModel");
 const Reciept = require("./models/recieptModel");
 require("dotenv").config();
 
+// "mongodb+srv://shree:uNczDvUQmO2ivhSB@cluster0.qikchv4.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(
-  "mongodb+srv://shree:uNczDvUQmO2ivhSB@cluster0.qikchv4.mongodb.net/?retryWrites=true&w=majority"
+  "mongodb+srv://shree:shreemongo12@cluster0.qikchv4.mongodb.net/?retryWrites=true&w=majority"
 );
 
 app.post("/register", async (req, res) => {
